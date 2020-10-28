@@ -22,3 +22,7 @@ insert into AddressBook values('Lionel','Messi','Argentina','Rosario','Punjab','
 insert into AddressBook values('Cristiano','Ronaldo','Portugal','Madeira','West Bengal','711103','123456','a@b.com');
 insert into AddressBook values('Neymar','Junior','Brazil','Brasilia','Kerela','457754','789065','a@b.com');
 insert into AddressBook values('Luis','Suarez','Uruguay','Montevideo','Hyderabad','546657','87978','a@b.com');
+
+#UC4
+update AddressBook set city = 'BangaLore' where firstName = 'Preetam'
+	and lastName = 'Mukhopadhyay';
