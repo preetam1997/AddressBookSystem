@@ -24,5 +24,9 @@ insert into AddressBook values('Neymar','Junior','Brazil','Brasilia','Kerela','4
 insert into AddressBook values('Luis','Suarez','Uruguay','Montevideo','Hyderabad','546657','87978','a@b.com');
 
 #UC4
-update AddressBook set city = 'BangaLore' where firstName = 'Preetam'
-	and lastName = 'Mukhopadhyay';
+update AddressBook set city = 'BangaLore' 
+	where firstName = 'Preetam' and lastName = 'Mukhopadhyay';
+    
+#UC5
+delete from AddressBook
+	where firstName = 'Priyam' and lastName = 'Mukhopadhyay';
