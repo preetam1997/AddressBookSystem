@@ -49,4 +49,18 @@ alter table AddressBook
     add addressBookName varchar(255),
     add addressBookType varchar(255);
     
+#UC10
+insert into AddressBook values('Preetam','Mukhopadhyay','India','Bhagalpur','Bihar','813214','123456','a@b.com','add1','family');
+insert into AddressBook values('Priyam','Mukhopadhyay','India','Bhagalpur','Bihar','813214','123456','a@b.com','add1','family');
+insert into AddressBook values('Goku','Kakarot','Japan','Tokyo','Kanto','123454','123456','a@b.com','add2','friends');
+insert into AddressBook values('Vegeta','Saiyan','Japan','Tokyo','Kanto','123454','123456','a@b.com','add2','friends');
+insert into AddressBook values('Picolo','Namek','Japan','Tokyo','Kanto','123454','123456','a@b.com','add2','friends');
+insert into AddressBook values('Lionel','Messi','Argentina','Rosario','Punjab','34577','123456','a@b.com','add3','profession');
+insert into AddressBook values('Cristiano','Ronaldo','Portugal','Madeira','West Bengal','711103','123456','a@b.com','add3','profession');
+insert into AddressBook values('Neymar','Junior','Brazil','Brasilia','Kerela','457754','789065','a@b.com','add3','profession');
+insert into AddressBook values('Luis','Suarez','Uruguay','Montevideo','Hyderabad','546657','87978','a@b.com','add3','profession');
+
+select addressBookType,count(*) 
+from AddressBook 
+group by addressBookType;
 
