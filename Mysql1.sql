@@ -50,6 +50,7 @@ alter table AddressBook
     add addressBookType varchar(255);
     
 #UC10
+truncate AddressBook;
 insert into AddressBook values('Preetam','Mukhopadhyay','India','Bhagalpur','Bihar','813214','123456','a@b.com','add1','family');
 insert into AddressBook values('Priyam','Mukhopadhyay','India','Bhagalpur','Bihar','813214','123456','a@b.com','add1','family');
 insert into AddressBook values('Goku','Kakarot','Japan','Tokyo','Kanto','123454','123456','a@b.com','add2','friends');
@@ -64,3 +65,5 @@ select addressBookType,count(*)
 from AddressBook 
 group by addressBookType;
 
+#UC11
+insert into AddressBook values('Preetam','Mukhopadhyay','India','Bhagalpur','Bihar','813214','123456','a@b.com','add2','friend');
