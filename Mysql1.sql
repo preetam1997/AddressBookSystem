@@ -38,3 +38,9 @@ select firstName,lastName from AddressBook
 #UC7
 select city,count(*) from AddressBook group by city;
 select state,count(*) from AddressBook group by state;
+
+#UC8
+select * from AddressBook 
+where city = 'Tokyo' 
+order by firstName DESC, lastName ASC;
+
