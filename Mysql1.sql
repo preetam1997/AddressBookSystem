@@ -44,3 +44,9 @@ select * from AddressBook
 where city = 'Tokyo' 
 order by firstName DESC, lastName ASC;
 
+#UC9
+alter table AddressBook
+    add addressBookName varchar(255),
+    add addressBookType varchar(255);
+    
+
