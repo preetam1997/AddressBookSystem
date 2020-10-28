@@ -1,1 +1,2 @@
-Welcome to Addressbook system;
+#UC1
+create database AddressBook;
