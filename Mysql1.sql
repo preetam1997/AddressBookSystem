@@ -30,3 +30,7 @@ update AddressBook set city = 'BangaLore'
 #UC5
 delete from AddressBook
 	where firstName = 'Priyam' and lastName = 'Mukhopadhyay';
+
+#UC6
+select firstName,lastName from AddressBook 
+	where city = 'Tokyo' or state = 'kanto';
