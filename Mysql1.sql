@@ -34,3 +34,7 @@ delete from AddressBook
 #UC6
 select firstName,lastName from AddressBook 
 	where city = 'Tokyo' or state = 'kanto';
+    
+#UC7
+select city,count(*) from AddressBook group by city;
+select state,count(*) from AddressBook group by state;
